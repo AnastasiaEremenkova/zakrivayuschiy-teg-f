@@ -2,8 +2,8 @@
     --background-color: #ffffff;
     --text-color: #000000;
     --border-color: #000000;
-    --page-font-family-inter: "Inter";
-    --page-font-family-PressStart2P: "PressStart2P";
+    --main-font-family: "Inter";
+    --page-font-family: "PressStart2P";
     --main-font-weight: 400;
     --titles-font-weight: 700;
     --background-image: repeating-linear-gradient(
