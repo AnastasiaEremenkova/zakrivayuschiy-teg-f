@@ -14,7 +14,7 @@
 .list__card {
   display: flex;
   flex-direction: column;
-  gap: 54px;
+  gap: 50px;
 }
 
 .header {
@@ -25,7 +25,7 @@
   border: 2px solid var(--border-color);
   background-color: var(--background-color);
   inline-size: 100%;
-  padding-block-end: 19px;
+  padding-block-end: 20px;
   padding-block-start: 120px;
   margin-block-end: 100px;
 }
@@ -42,7 +42,7 @@
   font-family: var(--page-font-family), serif;
   font-weight: var(--main-font-weight);
   text-transform: uppercase;
-  line-height: 54px;
+  line-height: 65px;
   text-decoration: none;
 }
 
@@ -51,8 +51,8 @@
   font-family: var(--page-font-family), serif;
   font-weight: var(--main-font-weight);
   text-transform: uppercase;
-  line-height: 14px;
-  padding-block-end: 4px;
+  line-height: 25px;
+  padding-block-end: 14px;
 }
 
 .theme-menu__list {
@@ -133,8 +133,7 @@
   min-block-size: 375px;
 }
 
-@supports ((text-stroke: 1px var(--label-text-shadow)) or 
-(-webkit-text-stroke: 1px var(--label-text-shadow))) {
+@supports ((text-stroke: 1px var(--label-text-shadow)) or (-webkit-text-stroke: 1px var(--label-text-shadow))) {
   .image__label {
     -webkit-text-stroke: 1px var(--label-text-shadow);
     text-shadow: none;
@@ -176,23 +175,15 @@
 .article__text-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 26px;
+  gap: 27px;
   padding: 25px;
 }
-
-/* .align__padding__small-screen {
-  padding-inline-end: 5px;
-} */
-
-/* .align__padding__large-screen {
-  padding-inline-end: 0;
-} */
 
 .card__button-wrapper {
   display: flex;
   justify-content: end;
   padding-inline-end: 25px;
-  padding-block-end: 21px;
+  padding-block-end: 24px;
 }
 
 .card__icon-button {
@@ -254,7 +245,7 @@
 }
 
 .button::before {
-  content: "";
+  content: " ";
   display: block;
   position: absolute;
   width: 0%;
@@ -293,6 +284,7 @@
   color: var(--button-text-color);
   mix-blend-mode: difference;
 }
+
 .modal::backdrop {
   background-color: #000000;
   opacity: 75%;
@@ -384,14 +376,10 @@
   }
 
   .header {
-    padding-block-start: 141px;
+    padding-block-start: 140px;
     margin-block-end: 100px;
-    gap: 26px;
+    gap: 11px;
   }
-
-  /* .header__wrapper {
-    gap: 27px;
-  } */
 
   .image__label {
     inset-inline-end: 25px;
@@ -400,7 +388,7 @@
 
   .footer__button {
     flex-direction: row;
-    min-inline-size: 337px;
+    min-inline-size: 310px;
     min-height: 55px;
   }
 

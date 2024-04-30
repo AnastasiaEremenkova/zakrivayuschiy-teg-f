@@ -8,6 +8,20 @@
   animation-timing-function: ease-in-out;
 }
 
+@keyframes arrow {
+  from {
+    left: -4px;
+  }
+
+  50% {
+    left: 4px;
+  }
+
+  to {
+    left: -4px;
+  }
+}
+
 .like-icon .core {
   fill: var(--background-color);
   transition: fill 0.3s linear 0.03s;
