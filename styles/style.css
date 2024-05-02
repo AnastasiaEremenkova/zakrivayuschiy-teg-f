@@ -25,7 +25,7 @@
   border: 2px solid var(--border-color);
   background-color: var(--background-color);
   inline-size: 100%;
-  padding-block-end: 20px;
+  padding-block-end: 19px;
   padding-block-start: 120px;
   margin-block-end: 100px;
 }
@@ -42,7 +42,7 @@
   font-family: var(--page-font-family), serif;
   font-weight: var(--main-font-weight);
   text-transform: uppercase;
-  line-height: 65px;
+  line-height: 50px;
   text-decoration: none;
 }
 
@@ -51,8 +51,7 @@
   font-family: var(--page-font-family), serif;
   font-weight: var(--main-font-weight);
   text-transform: uppercase;
-  line-height: 25px;
-  padding-block-end: 14px;
+  line-height: 56px;
 }
 
 .theme-menu__list {
@@ -182,7 +181,7 @@
 .card__button-wrapper {
   display: flex;
   justify-content: end;
-  padding-inline-end: 25px;
+  padding-inline-end: 23px;
   padding-block-end: 24px;
 }
 
@@ -265,9 +264,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  min-inline-size: 306px;
-  min-block-size: 80px;
+  gap: 9px;
+  min-inline-size: 310px;
+  min-block-size: 84px;
   margin: 0 auto;
   transition: box-shadow 0.3s ease;
 }
@@ -376,9 +375,9 @@
   }
 
   .header {
-    padding-block-start: 140px;
+    padding-block-start: 145px;
     margin-block-end: 100px;
-    gap: 11px;
+    gap: 8px;
   }
 
   .image__label {
@@ -388,7 +387,7 @@
 
   .footer__button {
     flex-direction: row;
-    min-inline-size: 310px;
+    min-inline-size: 340px;
     min-height: 55px;
   }
 
